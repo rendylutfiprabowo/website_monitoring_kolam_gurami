@@ -9,7 +9,7 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://siakadu.unila.ac.id/assets/v1/img/logo_unila.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -40,6 +40,8 @@
   }
 </style>
 
+
+
 <body class="index-page">
   <header id="header" class="header sticky-top">
     <div class="branding d-flex align-items-center">
@@ -51,7 +53,6 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <!-- Gunakan logika PHP untuk menentukan halaman aktif -->
             <li class="<?php echo ($activePage == 'home') ? 'active' : ''; ?>">
               <a href="index.php?page=home">Home</a>
             </li>
@@ -70,6 +71,7 @@
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+
       </div>
     </div>
   </header>
@@ -90,10 +92,8 @@
 
   <!-- loading -->
   <div id="preloader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <img src="https://siakadu.unila.ac.id/assets/v1/img/logo_unila.png" alt="[loading]" style="width: 150px;">
+  </div>
   </div>
 
   <!-- Vendor JS Files -->
@@ -109,6 +109,8 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </body>
 

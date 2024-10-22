@@ -1,0 +1,8 @@
+1. Buka XAMPP
+2. run Mysql dan Apache
+3. Buka folder monitoring di vscode
+4. Buat database dengan nama 'monitoring' di : http://localhost/phpmyadmin/index.php?route=/server/databases
+5. nama database pastikan sama!
+6. Buka browser(chrome)
+7. buka link : http://localhost/monitoring/migrations/001_create_riwayat_monitoring_table.php
+8. akan muncul tulisan 'table berhasil dibuat' (jika selain itu gagal)
